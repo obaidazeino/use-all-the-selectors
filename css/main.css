@@ -27,11 +27,15 @@ nav ul {
 }
 
 .dfn p + .dfn strong {
-  color: fff;
+  color: #fff;
 }
 
-a:not (.no-highlight) {
-  background-color: 719e07;
+a {
+  background-color: #719e07;
+}
+
+.no-highlight {
+  background-color: none;
 }
 
 [rel="external"] {
